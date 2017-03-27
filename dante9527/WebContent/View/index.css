@@ -1,0 +1,48 @@
+#title{
+	
+	list-style:none;
+	font-size:36;
+	padding-right:50px
+}
+#main_menu{
+	list-style:none;
+	width:1500px;
+	height:40px;
+	background-color:black;
+}
+#main_menu li{
+	display:inline-block;
+}
+#main_menu li a{
+	display:block;
+	padding: 5px 25px;
+	text-decoration: none;
+	color:#FFFFFF;
+
+}
+#main_menu li a:HOVER{
+	color:#F75000;
+}
+.fa-search{
+	color:#FFFFFF;
+	margin-left:-25px;
+
+}
+#index{
+	font-family:Arial;
+	font-size: 1.6em;
+    font-weight:bold; 
+    background-color: 
+}
+#first_row{
+	list-style:none;
+	float:left;
+}
+#second_row{
+	list-style:none;
+	float:left;
+}
+#third_row{
+	list-style:none;
+	float:left;
+}

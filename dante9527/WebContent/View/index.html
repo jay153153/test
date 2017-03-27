@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<link href="index.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+	<script type="text/javascript" src="dante9527/WebContent/View/jquery.min.js"></script>
+	<script type="text/javascript" src="dante9527/WebContent/View/jquery.min.js?JS=20160216_01"></script>
+	
+	
+<title>動態貼文</title>
+</head>
+<body> 
+
+<div>
+	<nav>
+		<ul id="main_menu">
+			<li id="index"><a href="救急浪浪" style="color:#00BB00;" >救急浪浪</a></li>
+			<li><a href="動態貼文">動態貼文</a></li>
+				<li><a href="協尋浪浪">協尋浪浪</a></li>
+				<li class="fa fa-search"></li>
+				<li><a href="浪浪雷達">浪浪雷達</a></li>
+				<li><a href="會員中心">會員中心</a></li>
+				<li><a href="商品義賣">商品義賣</a></li>
+				<li><a href="浪浪雷達">我與他的故事</a></li>
+				<li><a href="尋獲紀錄">尋獲紀錄</a></li>
+		</ul>
+	</nav>
+	
+	</div>
+	
+	<div>
+		<table id="tabel_1">
+		  <tr>
+			<div id="first_row">
+				<li><a href="動態貼文"><img src="1.jpg" border="1"></a></li>
+				<li><a href="動態貼文"><img src="2.jpg" border="1"></a></li>
+				<li><a href="動態貼文"><img src="3.jpg" border="1"></a></li>
+			</div>
+			<div id="second_row">
+				<li><a href="動態貼文"><img src="1.jpg" border="1"></a></li>
+				<li><a href="動態貼文"><img src="2.jpg" border="1"></a></li>
+				<li><a href="動態貼文"><img src="3.jpg" border="1"></a></li>
+			</div>
+			 <div id="third_row">
+				<li><a href="動態貼文"><img src="1.jpg" border="1"></a></li>
+				<li><a href="動態貼文"><img src="2.jpg" border="1"></a></li>
+				<li><a href="動態貼文"><img src="3.jpg" border="1"></a></li>
+			</div>
+		  </tr>	
+		</table>
+		<input type="button" value="變更文字顏色" onclick="ChangeFontColor()">	
+		<!--  -->
+	<div>
+		<table id="table_2">
+		  <tr>
+			<div id="first_row" >
+				<li><a href="動態貼文"><img src="3.jpg" border="1"></a></li>
+				<li><a href="動態貼文"><img src="3.jpg" border="1"></a></li>
+				<li><a href="動態貼文"><img src="3.jpg" border="1"></a></li>
+			</div>
+			<div id="second_row">
+				<li><a href="動態貼文"><img src="3.jpg" border="1"></a></li>
+				<li><a href="動態貼文"><img src="3.jpg" border="1"></a></li>
+				<li><a href="動態貼文"><img src="3.jpg" border="1"></a></li>
+			</div>
+			 <div id="third_row">
+				<li><a href="動態貼文"><img src="3.jpg" border="1"></a></li>
+				<li><a href="動態貼文"><img src="3.jpg" border="1"></a></li>
+				<li><a href="動態貼文"><img src="3.jpg" border="1"></a></li>
+			</div>
+		  </tr>	
+		</table>  	
+	 </div>
+</div>
+
+
+<script>
+var tabel1
+function ChangeFontColor(){
+	
+	document.getElementById('table_1').setAttribute('id', 'table_2');
+	alert('TEST!');
+}
+
+</script>
+</body>
+</html>
